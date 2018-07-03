@@ -18,6 +18,8 @@
 
 import re
 import logging
+MAX_SCRIPT = 1000000
+MAX_PUBKEY = 65
 
 NO_CLOB = 'BUG_NO_CLOB'
 STMT_RE = re.compile(r"([^']+)((?:'[^']*')?)")
