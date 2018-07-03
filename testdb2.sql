@@ -488,7 +488,7 @@ DROP TABLE IF EXISTS `datadir_seq`;
 CREATE TABLE `datadir_seq` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -497,7 +497,7 @@ CREATE TABLE `datadir_seq` (
 
 LOCK TABLES `datadir_seq` WRITE;
 /*!40000 ALTER TABLE `datadir_seq` DISABLE KEYS */;
-INSERT INTO `datadir_seq` VALUES (1),(2),(3),(4),(5),(6),(7),(8),(9),(10),(11),(12),(13),(14),(15),(16),(17),(18),(19),(20),(21),(22),(23),(24),(25),(26),(27);
+INSERT INTO `datadir_seq` VALUES (1),(2);
 /*!40000 ALTER TABLE `datadir_seq` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -943,4 +943,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-07-03  6:16:13
+-- Dump completed on 2018-07-03  7:34:16
